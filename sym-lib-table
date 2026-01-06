@@ -38,4 +38,5 @@
   (lib (name "Dispatcher")(type "Legacy")(uri "${KIPRJMOD}/libs/Dispatcher.lib")(options "")(descr ""))
   (lib (name "DT1042")(type "Legacy")(uri "${KIPRJMOD}/libs/DT1042.lib")(options "")(descr ""))
   (lib (name "Raemixx500-rescue")(type "KiCad")(uri "${KIPRJMOD}/Raemixx500-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "SBCLogo_Library")(type "KiCad")(uri "${KIPRJMOD}/SBCLogo_Library.kicad_sym")(options "")(descr ""))
 )

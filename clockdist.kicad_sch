@@ -5,11 +5,10 @@
 	(uuid "4b1d4e11-b2b7-4a78-a363-402d7bcc9857")
 	(paper "A4")
 	(title_block
-		(title "Rämixx500")
-		(date "2019-04-20")
-		(rev "1")
-		(company "SukkoPera")
-		(comment 4 "Licensed under CC BY-NC-SA 4.0")
+		(title "A500Sub")
+		(date "2026-01-06")
+		(rev "2")
+		(company "Submeson Brain Corperation")
 	)
 	(lib_symbols
 		(symbol "74ls258:74LS258"
@@ -3324,6 +3323,12 @@
 					(unit 1)
 				)
 			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3410,6 +3415,12 @@
 					(unit 1)
 				)
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
+					(reference "E?")
+					(unit 1)
+				)
+			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
 					(reference "E?")
 					(unit 1)
 				)
@@ -3504,6 +3515,12 @@
 					(unit 1)
 				)
 			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3590,6 +3607,12 @@
 					(unit 1)
 				)
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
+					(reference "E?")
+					(unit 1)
+				)
+			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
 					(reference "E?")
 					(unit 1)
 				)
@@ -3684,6 +3707,12 @@
 					(unit 1)
 				)
 			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3770,6 +3799,12 @@
 					(unit 1)
 				)
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
+					(reference "E?")
+					(unit 1)
+				)
+			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
 					(reference "E?")
 					(unit 1)
 				)
@@ -3864,6 +3899,12 @@
 					(unit 1)
 				)
 			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3954,6 +3995,12 @@
 					(unit 1)
 				)
 			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4018,6 +4065,12 @@
 					(unit 1)
 				)
 			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4079,6 +4132,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "#PWR0239")
+					(unit 1)
+				)
+			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4168,6 +4227,12 @@
 					(unit 1)
 				)
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
+					(reference "E?")
+					(unit 1)
+				)
+			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
 					(reference "E?")
 					(unit 1)
 				)
@@ -4262,6 +4327,12 @@
 					(unit 1)
 				)
 			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4323,6 +4394,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "#PWR0240")
+					(unit 1)
+				)
+			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4424,6 +4501,12 @@
 					(unit 1)
 				)
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
+					(reference "E?")
+					(unit 1)
+				)
+			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
 					(reference "E?")
 					(unit 1)
 				)
@@ -4530,6 +4613,12 @@
 					(unit 1)
 				)
 			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4541,7 +4630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d89015c")
-		(property "Reference" "U33A"
+		(property "Reference" "U33A1"
 			(at 93.726 60.96 0)
 			(effects
 				(font
@@ -4679,7 +4768,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
-					(reference "U33A")
+					(reference "U33A1")
+					(unit 1)
+				)
+			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "U33A?")
 					(unit 1)
 				)
 			)
@@ -4694,7 +4789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d895568")
-		(property "Reference" "U33B"
+		(property "Reference" "U33B1"
 			(at 93.726 96.52 0)
 			(effects
 				(font
@@ -4832,8 +4927,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
-					(reference "U33B")
+					(reference "U33B1")
 					(unit 2)
+				)
+			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "U33B?")
+					(unit 1)
 				)
 			)
 		)
@@ -4847,7 +4948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d8955fe")
-		(property "Reference" "U33C"
+		(property "Reference" "U33C1"
 			(at 93.726 78.74 0)
 			(effects
 				(font
@@ -4985,8 +5086,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
-					(reference "U33C")
+					(reference "U33C1")
 					(unit 3)
+				)
+			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "U33C?")
+					(unit 1)
 				)
 			)
 		)
@@ -5097,6 +5204,12 @@
 					(unit 1)
 				)
 			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "RP?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5108,7 +5221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d8a9e7d")
-		(property "Reference" "U33E"
+		(property "Reference" "U33E1"
 			(at 250.698 89.154 0)
 			(effects
 				(font
@@ -5248,8 +5361,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
-					(reference "U33E")
+					(reference "U33E1")
 					(unit 5)
+				)
+			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "U33E?")
+					(unit 1)
 				)
 			)
 		)
@@ -5313,6 +5432,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5380,6 +5505,12 @@
 					(unit 1)
 				)
 			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5441,6 +5572,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5573,6 +5710,12 @@
 					(unit 1)
 				)
 			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5690,6 +5833,18 @@
 					(unit 1)
 				)
 			)
+			(project "clockdist"
+				(path "/4b1d4e11-b2b7-4a78-a363-402d7bcc9857"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

@@ -5,12 +5,10 @@
 	(uuid "7da22481-82ad-4aad-ba7a-1c44d8ffeb4c")
 	(paper "A3")
 	(title_block
-		(title "Rämixx500")
-		(date "2021-05-23")
-		(rev "1")
-		(company "SukkoPera")
-		(comment 1 "RS232 AND PARALLEL PORT")
-		(comment 4 "Licensed under CC BY-NC-SA 4.0")
+		(title "A500Sub")
+		(date "2026-01-06")
+		(rev "2")
+		(company "Submeson Brain Corperation")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Male"
@@ -15936,6 +15934,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15997,6 +16001,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0268")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -16087,6 +16097,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16171,6 +16187,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "E503")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -16262,6 +16284,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16273,7 +16301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e7ec434")
-		(property "Reference" "U7A"
+		(property "Reference" "U7A1"
 			(at 84.201 53.213 0)
 			(effects
 				(font
@@ -16456,7 +16484,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U7A")
+					(reference "U7A1")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U7A?")
 					(unit 1)
 				)
 			)
@@ -16471,7 +16505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e7ef4f3")
-		(property "Reference" "U8A"
+		(property "Reference" "U8A1"
 			(at 84.201 125.984 0)
 			(effects
 				(font
@@ -16645,7 +16679,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U8A")
+					(reference "U8A1")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U8A?")
 					(unit 1)
 				)
 			)
@@ -16796,6 +16836,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "CN?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16857,6 +16903,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -16975,6 +17027,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17071,6 +17129,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "JP7B1")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "JP7B?")
 					(unit 1)
 				)
 			)
@@ -17179,6 +17243,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17281,6 +17351,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "E512")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -17389,6 +17465,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17491,6 +17573,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "E514")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -17599,6 +17687,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17701,6 +17795,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "E516")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -17809,6 +17909,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17911,6 +18017,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "E518")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -18019,6 +18131,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18121,6 +18239,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "E521")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -18229,6 +18353,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18331,6 +18461,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "E523")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -18439,6 +18575,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18500,6 +18642,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -18614,6 +18762,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "RP?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18625,7 +18779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e9fa6ce")
-		(property "Reference" "U7B"
+		(property "Reference" "U7B1"
 			(at 164.7952 258.8006 0)
 			(effects
 				(font
@@ -18810,8 +18964,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U7B")
+					(reference "U7B1")
 					(unit 2)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U7B?")
+					(unit 1)
 				)
 			)
 		)
@@ -18825,7 +18985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ea251e0")
-		(property "Reference" "U8B"
+		(property "Reference" "U8B1"
 			(at 200.7362 258.8006 0)
 			(effects
 				(font
@@ -19001,8 +19161,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U8B")
+					(reference "U8B1")
 					(unit 2)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U8B?")
+					(unit 1)
 				)
 			)
 		)
@@ -19106,6 +19272,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -19213,6 +19385,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19275,6 +19453,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19343,6 +19527,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19404,6 +19594,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19520,6 +19716,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19630,6 +19832,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "C711")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -19781,6 +19989,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "CN?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19892,6 +20106,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "E532")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -20009,6 +20229,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20120,6 +20346,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "E533")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -20237,6 +20469,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20348,6 +20586,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "E536")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -20465,6 +20709,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20526,6 +20776,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -20593,6 +20849,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20654,6 +20916,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -20759,6 +21027,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20861,6 +21135,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20872,7 +21152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005efa27c6")
-		(property "Reference" "U38C"
+		(property "Reference" "U38C1"
 			(at 183.515 167.894 0)
 			(effects
 				(font
@@ -20995,8 +21275,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U38C")
+					(reference "U38C1")
 					(unit 3)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U38C?")
+					(unit 1)
 				)
 			)
 		)
@@ -21010,7 +21296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005efa28f8")
-		(property "Reference" "U38D"
+		(property "Reference" "U38D1"
 			(at 183.515 157.353 0)
 			(effects
 				(font
@@ -21133,8 +21419,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U38D")
+					(reference "U38D1")
 					(unit 4)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U38D?")
+					(unit 1)
 				)
 			)
 		)
@@ -21215,6 +21507,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21226,7 +21524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005efc98b9")
-		(property "Reference" "U38B"
+		(property "Reference" "U38B1"
 			(at 183.642 178.054 0)
 			(effects
 				(font
@@ -21349,8 +21647,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U38B")
+					(reference "U38B1")
 					(unit 2)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U38B?")
+					(unit 1)
 				)
 			)
 		)
@@ -21465,6 +21769,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "E531")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -21583,6 +21893,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21664,6 +21980,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "R109")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -21751,6 +22073,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21823,6 +22151,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "R502")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -21903,6 +22237,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21978,6 +22318,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22042,6 +22388,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22103,6 +22455,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -22171,6 +22529,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22183,7 +22547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f30ded7")
-		(property "Reference" "U39A"
+		(property "Reference" "U39A1"
 			(at 170.307 174.244 0)
 			(effects
 				(font
@@ -22306,7 +22670,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U39A")
+					(reference "U39A1")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U39A?")
 					(unit 1)
 				)
 			)
@@ -22322,7 +22692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4c24dd")
-		(property "Reference" "U39B"
+		(property "Reference" "U39B1"
 			(at 161.417 189.484 0)
 			(effects
 				(font
@@ -22445,8 +22815,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U39B")
+					(reference "U39B1")
 					(unit 2)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U39B?")
+					(unit 1)
 				)
 			)
 		)
@@ -22461,7 +22837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4c2acf")
-		(property "Reference" "U39C"
+		(property "Reference" "U39C1"
 			(at 148.463 199.644 0)
 			(effects
 				(font
@@ -22584,8 +22960,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U39C")
+					(reference "U39C1")
 					(unit 3)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U39C?")
+					(unit 1)
 				)
 			)
 		)
@@ -22600,7 +22982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4c2db1")
-		(property "Reference" "U39D"
+		(property "Reference" "U39D1"
 			(at 148.59 184.531 0)
 			(effects
 				(font
@@ -22723,8 +23105,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U39D")
+					(reference "U39D1")
 					(unit 4)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U39D?")
+					(unit 1)
 				)
 			)
 		)
@@ -22738,7 +23126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f66bbe4")
-		(property "Reference" "U39E"
+		(property "Reference" "U39E1"
 			(at 40.9702 261.9756 0)
 			(effects
 				(font
@@ -22863,8 +23251,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U39E")
+					(reference "U39E1")
 					(unit 5)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U39E?")
+					(unit 1)
 				)
 			)
 		)
@@ -22878,7 +23272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f687998")
-		(property "Reference" "U38E"
+		(property "Reference" "U38E1"
 			(at 58.4962 261.9756 0)
 			(effects
 				(font
@@ -23003,8 +23397,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U38E")
+					(reference "U38E1")
 					(unit 5)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U38E?")
+					(unit 1)
 				)
 			)
 		)
@@ -23102,6 +23502,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23163,6 +23569,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -23231,6 +23643,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23295,6 +23713,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23356,6 +23780,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -23434,6 +23864,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23509,6 +23945,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23570,6 +24012,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -23654,6 +24102,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "Q503")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -23751,6 +24205,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "CN?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23815,6 +24275,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23876,6 +24342,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -23954,6 +24426,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24029,6 +24507,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24090,6 +24574,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -24177,6 +24667,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24249,6 +24745,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "R507")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -24357,6 +24859,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24462,6 +24970,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24526,6 +25040,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24537,7 +25057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ff90a64")
-		(property "Reference" "U42A"
+		(property "Reference" "U42A1"
 			(at 322.961 183.5912 0)
 			(effects
 				(font
@@ -24651,7 +25171,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U42A")
+					(reference "U42A1")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U42A?")
 					(unit 1)
 				)
 			)
@@ -24739,6 +25265,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24823,6 +25355,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24884,6 +25422,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -25000,6 +25544,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25089,6 +25639,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "Q711")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -25186,6 +25742,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25197,7 +25759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000605075b8")
-		(property "Reference" "U42B"
+		(property "Reference" "U42B1"
 			(at 400.304 194.9196 0)
 			(effects
 				(font
@@ -25313,8 +25875,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
-					(reference "U42B")
+					(reference "U42B1")
 					(unit 2)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "U42B?")
+					(unit 1)
 				)
 			)
 		)
@@ -25430,6 +25998,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25495,6 +26069,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25556,6 +26136,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -25643,6 +26229,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25703,6 +26295,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e7e9ec4"
 					(reference "J99")
+					(unit 1)
+				)
+			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -25781,6 +26379,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25856,6 +26460,12 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25920,6 +26530,18 @@
 					(unit 1)
 				)
 			)
+			(project "cias"
+				(path "/7da22481-82ad-4aad-ba7a-1c44d8ffeb4c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

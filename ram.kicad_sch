@@ -5,12 +5,10 @@
 	(uuid "493c0c84-2925-4249-bc41-665fe4537d80")
 	(paper "A3")
 	(title_block
-		(title "Rämixx500")
-		(date "2021-05-23")
-		(rev "1")
-		(company "SukkoPera")
-		(comment 1 "MEMORY AND...WELL, I USED TO REMEMBER")
-		(comment 4 "Licensed under CC BY-NC-SA 4.0")
+		(title "A500Sub")
+		(date "2026-01-06")
+		(rev "2")
+		(company "Submeson Brain Corperation")
 	)
 	(lib_symbols
 		(symbol "74ls244:74LS244"
@@ -12370,7 +12368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ccc8b13")
-		(property "Reference" "U16B"
+		(property "Reference" "U16B1"
 			(at 313.0042 179.8066 0)
 			(effects
 				(font
@@ -12495,8 +12493,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U16B")
+					(reference "U16B1")
 					(unit 2)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U16B?")
+					(unit 1)
 				)
 			)
 		)
@@ -12510,7 +12514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ccc8df5")
-		(property "Reference" "U20B"
+		(property "Reference" "U20B1"
 			(at 335.4832 179.8066 0)
 			(effects
 				(font
@@ -12626,8 +12630,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U20B")
+					(reference "U20B1")
 					(unit 2)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U20B?")
+					(unit 1)
 				)
 			)
 		)
@@ -12743,6 +12753,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12754,7 +12770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd19b32")
-		(property "Reference" "U17B"
+		(property "Reference" "U17B1"
 			(at 374.3452 179.8066 0)
 			(effects
 				(font
@@ -12879,8 +12895,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U17B")
+					(reference "U17B1")
 					(unit 2)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U17B?")
+					(unit 1)
 				)
 			)
 		)
@@ -12894,7 +12916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd19b38")
-		(property "Reference" "U21B"
+		(property "Reference" "U21B1"
 			(at 396.8242 179.8066 0)
 			(effects
 				(font
@@ -13010,8 +13032,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U21B")
+					(reference "U21B1")
 					(unit 2)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U21B?")
+					(unit 1)
 				)
 			)
 		)
@@ -13124,6 +13152,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -13240,6 +13274,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13251,7 +13291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf36d4c")
-		(property "Reference" "U18B"
+		(property "Reference" "U18B1"
 			(at 290.5252 225.0186 0)
 			(effects
 				(font
@@ -13376,8 +13416,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U18B")
+					(reference "U18B1")
 					(unit 2)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U18B?")
+					(unit 1)
 				)
 			)
 		)
@@ -13391,7 +13437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf36d52")
-		(property "Reference" "U22B"
+		(property "Reference" "U22B1"
 			(at 313.0042 225.0186 0)
 			(effects
 				(font
@@ -13507,8 +13553,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U22B")
+					(reference "U22B1")
 					(unit 2)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U22B?")
+					(unit 1)
 				)
 			)
 		)
@@ -13624,6 +13676,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13635,7 +13693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf36d5e")
-		(property "Reference" "U19B"
+		(property "Reference" "U19B1"
 			(at 351.8662 225.0186 0)
 			(effects
 				(font
@@ -13760,8 +13818,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U19B")
+					(reference "U19B1")
 					(unit 2)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U19B?")
+					(unit 1)
 				)
 			)
 		)
@@ -13775,7 +13839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf36d64")
-		(property "Reference" "U23B"
+		(property "Reference" "U23B1"
 			(at 374.3452 225.0186 0)
 			(effects
 				(font
@@ -13891,8 +13955,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U23B")
+					(reference "U23B1")
 					(unit 2)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U23B?")
+					(unit 1)
 				)
 			)
 		)
@@ -14008,6 +14078,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14019,7 +14095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf5939e")
-		(property "Reference" "U32A"
+		(property "Reference" "U32A1"
 			(at 131.191 182.9562 0)
 			(effects
 				(font
@@ -14148,7 +14224,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U32A")
+					(reference "U32A1")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U32A?")
 					(unit 1)
 				)
 			)
@@ -14163,7 +14245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf5975b")
-		(property "Reference" "U32B"
+		(property "Reference" "U32B1"
 			(at 131.191 203.0222 0)
 			(effects
 				(font
@@ -14292,8 +14374,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U32B")
+					(reference "U32B1")
 					(unit 2)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U32B?")
+					(unit 1)
 				)
 			)
 		)
@@ -14357,6 +14445,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14424,6 +14518,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14485,6 +14585,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
 					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14552,6 +14658,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14563,7 +14675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1c956e")
-		(property "Reference" "U16A"
+		(property "Reference" "U16A1"
 			(at 236.22 25.019 0)
 			(effects
 				(font
@@ -14686,7 +14798,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U16A")
+					(reference "U16A1")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U16A?")
 					(unit 1)
 				)
 			)
@@ -14701,7 +14819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4117a6")
-		(property "Reference" "U17A"
+		(property "Reference" "U17A1"
 			(at 278.765 25.019 0)
 			(effects
 				(font
@@ -14824,7 +14942,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U17A")
+					(reference "U17A1")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U17A?")
 					(unit 1)
 				)
 			)
@@ -14839,7 +14963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d42dbcb")
-		(property "Reference" "U18A"
+		(property "Reference" "U18A1"
 			(at 321.31 25.019 0)
 			(effects
 				(font
@@ -14962,7 +15086,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U18A")
+					(reference "U18A1")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U18A?")
 					(unit 1)
 				)
 			)
@@ -14977,7 +15107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d42dbd1")
-		(property "Reference" "U19A"
+		(property "Reference" "U19A1"
 			(at 363.855 25.019 0)
 			(effects
 				(font
@@ -15100,7 +15230,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U19A")
+					(reference "U19A1")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U19A?")
 					(unit 1)
 				)
 			)
@@ -15198,6 +15334,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "JP3A?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15292,6 +15434,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "JP3B?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15356,6 +15504,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15417,6 +15571,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -15506,6 +15666,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15592,6 +15758,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15653,6 +15825,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -15720,6 +15898,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15781,6 +15965,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -15848,6 +16038,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15859,7 +16055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d805fd5")
-		(property "Reference" "U20A"
+		(property "Reference" "U20A1"
 			(at 236.22 82.931 0)
 			(effects
 				(font
@@ -15973,7 +16169,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U20A")
+					(reference "U20A1")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U20A?")
 					(unit 1)
 				)
 			)
@@ -15988,7 +16190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d805fdb")
-		(property "Reference" "U21A"
+		(property "Reference" "U21A1"
 			(at 278.765 82.931 0)
 			(effects
 				(font
@@ -16102,7 +16304,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U21A")
+					(reference "U21A1")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U21A?")
 					(unit 1)
 				)
 			)
@@ -16117,7 +16325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d805fe1")
-		(property "Reference" "U22A"
+		(property "Reference" "U22A1"
 			(at 321.31 82.931 0)
 			(effects
 				(font
@@ -16231,7 +16439,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U22A")
+					(reference "U22A1")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U22A?")
 					(unit 1)
 				)
 			)
@@ -16246,7 +16460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d805fe7")
-		(property "Reference" "U23A"
+		(property "Reference" "U23A1"
 			(at 363.855 82.931 0)
 			(effects
 				(font
@@ -16360,7 +16574,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U23A")
+					(reference "U23A1")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U23A?")
 					(unit 1)
 				)
 			)
@@ -16428,6 +16648,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16489,6 +16715,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -16556,6 +16788,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16617,6 +16855,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -16727,6 +16971,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "JP4A?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16834,6 +17084,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "JP4B?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16846,7 +17102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb19726")
-		(property "Reference" "U34A"
+		(property "Reference" "U34A1"
 			(at 78.74 33.7312 0)
 			(effects
 				(font
@@ -16996,7 +17252,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U34A")
+					(reference "U34A1")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U34A?")
 					(unit 1)
 				)
 			)
@@ -17012,7 +17274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb9a376")
-		(property "Reference" "U35A"
+		(property "Reference" "U35A1"
 			(at 78.74 73.406 0)
 			(effects
 				(font
@@ -17162,7 +17424,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
-					(reference "U35A")
+					(reference "U35A1")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "U35A?")
 					(unit 1)
 				)
 			)
@@ -17230,6 +17498,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17291,6 +17565,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -17403,6 +17683,12 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "RP?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17509,6 +17795,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005ea8075b"
 					(reference "RP202")
+					(unit 1)
+				)
+			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "RP?")
 					(unit 1)
 				)
 			)
@@ -17621,6 +17913,18 @@
 					(unit 1)
 				)
 			)
+			(project "ram"
+				(path "/493c0c84-2925-4249-bc41-665fe4537d80"
+					(reference "RP?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
