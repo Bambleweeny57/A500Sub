@@ -5,11 +5,10 @@
 	(uuid "f141b82a-951c-4742-a2a2-aff557813c39")
 	(paper "A4")
 	(title_block
-		(title "Rämixx500")
-		(date "2019-06-23")
-		(rev "1")
-		(company "SukkoPera")
-		(comment 4 "Licensed under CC BY-NC-SA 4.0")
+		(title "A500Sub")
+		(date "2026-01-06")
+		(rev "2")
+		(company "Submeson Brain Corperation")
 	)
 	(lib_symbols
 		(symbol "BUSEXP:BUSEXP"
@@ -5965,6 +5964,12 @@
 					(unit 1)
 				)
 			)
+			(project "expansion"
+				(path "/f141b82a-951c-4742-a2a2-aff557813c39"
+					(reference "P?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6029,6 +6034,12 @@
 					(unit 1)
 				)
 			)
+			(project "expansion"
+				(path "/f141b82a-951c-4742-a2a2-aff557813c39"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6090,6 +6101,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e813dc5"
 					(reference "#PWR0228")
+					(unit 1)
+				)
+			)
+			(project "expansion"
+				(path "/f141b82a-951c-4742-a2a2-aff557813c39"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6203,6 +6220,12 @@
 					(unit 1)
 				)
 			)
+			(project "expansion"
+				(path "/f141b82a-951c-4742-a2a2-aff557813c39"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6310,6 +6333,12 @@
 				)
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e813dc5"
 					(reference "E703")
+					(unit 1)
+				)
+			)
+			(project "expansion"
+				(path "/f141b82a-951c-4742-a2a2-aff557813c39"
+					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -6423,6 +6452,12 @@
 					(unit 1)
 				)
 			)
+			(project "expansion"
+				(path "/f141b82a-951c-4742-a2a2-aff557813c39"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6491,6 +6526,12 @@
 					(unit 1)
 				)
 			)
+			(project "expansion"
+				(path "/f141b82a-951c-4742-a2a2-aff557813c39"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6552,6 +6593,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e813dc5"
 					(reference "#PWR0230")
+					(unit 1)
+				)
+			)
+			(project "expansion"
+				(path "/f141b82a-951c-4742-a2a2-aff557813c39"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6619,6 +6666,18 @@
 					(unit 1)
 				)
 			)
+			(project "expansion"
+				(path "/f141b82a-951c-4742-a2a2-aff557813c39"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

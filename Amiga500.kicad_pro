@@ -2411,7 +2411,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Raemixx500.net",
-      "plot": "gerbers",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

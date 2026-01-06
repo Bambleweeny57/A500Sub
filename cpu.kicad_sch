@@ -5,13 +5,10 @@
 	(uuid "ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94")
 	(paper "A3")
 	(title_block
-		(title "Rämixx500")
-		(date "2019-04-11")
-		(rev "1")
-		(company "SukkoPera")
-		(comment 1 "PROCESSOR AND OTHER USEFUL COMPONENTS")
-		(comment 2 "Derived from Commodore Schematic #312813, Rev. 1 - Sheet 2 of 10")
-		(comment 4 "Licensed under CC BY-NC-SA 4.0")
+		(title "A500Sub")
+		(date "2026-01-06")
+		(rev "2")
+		(company "Submeson Brain Corperation")
 	)
 	(lib_symbols
 		(symbol "68000D:68000D"
@@ -17272,6 +17269,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17283,7 +17286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005caec18d")
-		(property "Reference" "U2A"
+		(property "Reference" "U2A1"
 			(at 291.592 188.849 0)
 			(effects
 				(font
@@ -17598,7 +17601,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
-					(reference "U2A")
+					(reference "U2A1")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "U2A?")
 					(unit 1)
 				)
 			)
@@ -17688,6 +17697,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17771,6 +17786,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
 					(reference "R104")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -17860,6 +17881,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17871,7 +17898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cb489db")
-		(property "Reference" "U37A"
+		(property "Reference" "U37A1"
 			(at 335.534 104.648 0)
 			(effects
 				(font
@@ -18003,7 +18030,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
-					(reference "U37A")
+					(reference "U37A1")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "U37A?")
 					(unit 1)
 				)
 			)
@@ -18018,7 +18051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cb48fc2")
-		(property "Reference" "U37B"
+		(property "Reference" "U37B1"
 			(at 335.788 113.157 0)
 			(effects
 				(font
@@ -18151,8 +18184,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
-					(reference "U37B")
+					(reference "U37B1")
 					(unit 2)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "U37B?")
+					(unit 1)
 				)
 			)
 		)
@@ -18255,6 +18294,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18266,7 +18311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cbe9a78")
-		(property "Reference" "U33D"
+		(property "Reference" "U33D1"
 			(at 219.329 252.349 0)
 			(effects
 				(font
@@ -18404,8 +18449,14 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
-					(reference "U33D")
+					(reference "U33D1")
 					(unit 4)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "U33D?")
+					(unit 1)
 				)
 			)
 		)
@@ -18530,6 +18581,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "E?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18614,6 +18671,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18695,6 +18758,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
 					(reference "R107")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -18793,6 +18862,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18857,6 +18932,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18918,6 +18999,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
 					(reference "#PWR0200")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19005,6 +19092,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19080,6 +19173,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19091,7 +19190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cdc0bf7")
-		(property "Reference" "U1A"
+		(property "Reference" "U1A1"
 			(at 92.329 116.459 0)
 			(effects
 				(font
@@ -19346,7 +19445,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
-					(reference "U1A")
+					(reference "U1A1")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "U1A?")
 					(unit 1)
 				)
 			)
@@ -19414,6 +19519,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19425,7 +19536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cfcec13")
-		(property "Reference" "U13A"
+		(property "Reference" "U13A1"
 			(at 170.815 97.409 90)
 			(effects
 				(font
@@ -19575,7 +19686,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
-					(reference "U13A")
+					(reference "U13A1")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "U13A?")
 					(unit 1)
 				)
 			)
@@ -19590,7 +19707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cff7eaa")
-		(property "Reference" "U11A"
+		(property "Reference" "U11A1"
 			(at 171.069 168.529 90)
 			(effects
 				(font
@@ -19740,7 +19857,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
-					(reference "U11A")
+					(reference "U11A1")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "U11A?")
 					(unit 1)
 				)
 			)
@@ -19755,7 +19878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d05a737")
-		(property "Reference" "X1A"
+		(property "Reference" "X1A1"
 			(at 180.467 252.349 0)
 			(effects
 				(font
@@ -19830,7 +19953,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
-					(reference "X1A")
+					(reference "X1A1")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "X1A?")
 					(unit 1)
 				)
 			)
@@ -19906,6 +20035,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
 					(reference "R113")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -19993,6 +20128,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20077,6 +20218,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20089,7 +20236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d116ea8")
-		(property "Reference" "U10A"
+		(property "Reference" "U10A1"
 			(at 171.196 132.842 90)
 			(effects
 				(font
@@ -20239,7 +20386,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
-					(reference "U10A")
+					(reference "U10A1")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "U10A?")
 					(unit 1)
 				)
 			)
@@ -20255,7 +20408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d188f20")
-		(property "Reference" "U12A"
+		(property "Reference" "U12A1"
 			(at 170.688 61.595 90)
 			(effects
 				(font
@@ -20405,7 +20558,13 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
-					(reference "U12A")
+					(reference "U12A1")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "U12A?")
 					(unit 1)
 				)
 			)
@@ -20509,6 +20668,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "FB?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20570,6 +20735,12 @@
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
 					(reference "#PWR0266")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -20673,6 +20844,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "FB?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20737,6 +20914,12 @@
 					(unit 1)
 				)
 			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20748,7 +20931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000607a12e7")
-		(property "Reference" "U5A"
+		(property "Reference" "U5A1"
 			(at 291.592 60.833 0)
 			(effects
 				(font
@@ -20955,10 +21138,22 @@
 		(instances
 			(project "Raemixx500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005cae5331"
-					(reference "U5A")
+					(reference "U5A1")
+					(unit 1)
+				)
+			)
+			(project "cpu"
+				(path "/ae0d92d2-bfc4-4ba3-a48f-72dcaf680f94"
+					(reference "U5A?")
 					(unit 1)
 				)
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
