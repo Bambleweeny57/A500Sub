@@ -72,7 +72,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerbers/")
+			(outputdirectory "../gerbers/")
 		)
 	)
 	(net 0 "")
@@ -142653,8 +142653,7 @@
 		(effects
 			(font
 				(size 15 10)
-				(thickness 1.5)
-				(bold yes)
+				(thickness 0.5)
 			)
 			(justify left)
 		)
@@ -142704,14 +142703,13 @@
 		)
 	)
 	(gr_text "A500"
-		(at 129.1971 212.6742 0)
+		(at 130.4095 212.783 0)
 		(layer "F.SilkS")
 		(uuid "81bb4c43-cd16-4061-b187-448bebb55701")
 		(effects
 			(font
 				(size 15 10)
-				(thickness 1.5)
-				(bold yes)
+				(thickness 0.5)
 			)
 			(justify left)
 		)
