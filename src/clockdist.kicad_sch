@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "4b1d4e11-b2b7-4a78-a363-402d7bcc9857")
 	(paper "A4")
 	(title_block
@@ -18,8 +18,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 7.62 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -28,6 +32,8 @@
 			)
 			(property "Value" "74LS258"
 				(at 10.16 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -36,86 +42,60 @@
 			)
 			(property "Footprint" ""
 				(at 78.74 -58.42 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS258"
 				(at 78.74 -58.42 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Quad 2 to 1 Multiplexer, inverting"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "TTL MUX MUX2"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "DIP?16*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "74LS258_1_0"
-				(pin input line
-					(at -8.89 2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 -5.08 90)
 					(length 2.54)
@@ -134,6 +114,60 @@
 						)
 					)
 				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state inverted
+					(at 10.16 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input inverted
 					(at 3.81 -3.81 90)
 					(length 2.54)
@@ -145,24 +179,6 @@
 						)
 					)
 					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state inverted
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -188,9 +204,27 @@
 			)
 			(symbol "74LS258_2_0"
 				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -8.89 2.54 0)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -208,7 +242,7 @@
 				(pin input line
 					(at -8.89 -2.54 0)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -223,17 +257,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "S"
+				(pin tri_state inverted
+					(at 10.16 0 180)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -252,24 +286,6 @@
 						)
 					)
 					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state inverted
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -295,9 +311,45 @@
 			)
 			(symbol "74LS258_3_0"
 				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state inverted
+					(at 10.16 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -8.89 2.54 0)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -315,7 +367,7 @@
 				(pin input line
 					(at -8.89 -2.54 0)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -323,24 +375,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -359,24 +393,6 @@
 						)
 					)
 					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state inverted
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -402,9 +418,45 @@
 			)
 			(symbol "74LS258_4_0"
 				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state inverted
+					(at 10.16 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -8.89 2.54 0)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -422,7 +474,7 @@
 				(pin input line
 					(at -8.89 -2.54 0)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -430,24 +482,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -473,24 +507,6 @@
 						)
 					)
 				)
-				(pin tri_state inverted
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "74LS258_4_1"
 				(polyline
@@ -508,24 +524,6 @@
 				)
 			)
 			(symbol "74LS258_5_0"
-				(pin input line
-					(at 0 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 -11.43 90)
 					(length 5.08)
@@ -537,6 +535,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -570,8 +586,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -581,6 +601,8 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -590,47 +612,57 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_0_1"
@@ -663,7 +695,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -681,7 +713,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -707,8 +739,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FL"
 				(at 0 6.985 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -717,6 +753,8 @@
 			)
 			(property "Value" "EMI_Filter_LCL"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -725,47 +763,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "EMI T-filter (LCL)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "EMI T-filter"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Filter* Resonator*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "EMI_Filter_LCL_0_1"
@@ -1005,7 +1053,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1016,17 +1064,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1035,38 +1089,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -1087,7 +1149,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1106,7 +1168,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:VCC"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1117,17 +1179,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VCC"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1136,38 +1204,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"VCC\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VCC_0_1"
@@ -1212,7 +1288,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1238,8 +1314,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "RP"
 				(at -7.62 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1248,6 +1328,8 @@
 			)
 			(property "Value" "R_Pack05"
 				(at 7.62 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1256,47 +1338,57 @@
 			)
 			(property "Footprint" ""
 				(at 9.525 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "5 resistor network, parallel topology, DIP package"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R network parallel topology isolated"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "DIP* SOIC*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_Pack05_0_1"
@@ -1489,24 +1581,6 @@
 			)
 			(symbol "R_Pack05_1_1"
 				(pin passive line
-					(at -5.08 5.08 270)
-					(length 2.54)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -5.08 90)
 					(length 2.54)
 					(name "R1.1"
@@ -1525,16 +1599,16 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 5.08 270)
+					(at -5.08 5.08 270)
 					(length 2.54)
-					(name "R2.2"
+					(name "R1.2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1561,16 +1635,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at -2.54 5.08 270)
 					(length 2.54)
-					(name "R3.2"
+					(name "R2.2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1597,16 +1671,16 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 0 5.08 270)
 					(length 2.54)
-					(name "R4.2"
+					(name "R3.2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1633,16 +1707,16 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 270)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "R5.2"
+					(name "R4.2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1661,6 +1735,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "R5.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3027,11 +3119,13 @@
 		(uuid "0f2287da-25fd-43e4-aae6-0168e98eeed6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 43.434 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -3047,11 +3141,13 @@
 		(uuid "1a7fb7c1-d7eb-44f2-a2ca-71fab667aac8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 48.26 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -3067,11 +3163,13 @@
 		(uuid "1b07dc64-b5ee-4e38-9255-c96692561516")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.312 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -3087,11 +3185,13 @@
 		(uuid "2979a768-8aba-4aa0-8c03-a7bc8919f28d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 43.434 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -3107,11 +3207,13 @@
 		(uuid "2b237b5f-75c2-4ea7-84e0-1ca3e03a9b10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 43.434 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -3127,11 +3229,13 @@
 		(uuid "627d7670-67a7-4b47-b504-c80009f49840")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.312 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -3147,11 +3251,13 @@
 		(uuid "6f32d4c9-692b-4e02-94a2-cea3dfb7dee8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.312 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -3167,11 +3273,13 @@
 		(uuid "70028114-be27-4e4c-bdcf-b8234e8fdc47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.312 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -3187,11 +3295,13 @@
 		(uuid "98190de6-6b2a-4d3f-9ac1-8eb3640e3328")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 43.434 110.998 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -3207,11 +3317,13 @@
 		(uuid "b56c93a4-e604-4f3a-8f3b-d75b13d9a1fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.312 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -3227,11 +3339,13 @@
 		(uuid "c33bf52d-0c91-441d-8ddc-192dcfd3212d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 48.26 153.162 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -3239,13 +3353,17 @@
 		(lib_id "Device:C")
 		(at 155.194 121.158 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cedc355")
 		(property "Reference" "E793"
 			(at 158.115 119.9896 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,6 +3373,8 @@
 		)
 		(property "Value" "47p"
 			(at 158.115 122.301 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,24 +3384,30 @@
 		)
 		(property "Footprint" "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm"
 			(at 156.1592 124.968 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 155.194 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 155.194 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,20 +3416,24 @@
 		)
 		(property "Section" "CLOCK"
 			(at 155.194 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "EMI_FILTER_TYPE" "C"
 			(at 155.194 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3313,13 +3443,9 @@
 			(uuid "c8a06e12-dbf0-47e0-9263-553022b3ade8")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "E793")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -3335,13 +3461,17 @@
 		(lib_id "Device:C")
 		(at 166.37 121.412 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cedc35c")
 		(property "Reference" "E792"
 			(at 169.291 120.2436 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,6 +3481,8 @@
 		)
 		(property "Value" "47p"
 			(at 169.291 122.555 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,24 +3492,30 @@
 		)
 		(property "Footprint" "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm"
 			(at 167.3352 125.222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 166.37 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 166.37 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,20 +3524,24 @@
 		)
 		(property "Section" "CLOCK"
 			(at 166.37 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "EMI_FILTER_TYPE" "C"
 			(at 166.37 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3409,13 +3551,9 @@
 			(uuid "97df2b3a-af0c-4fb7-a6d1-ec4617dda646")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "E792")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -3431,13 +3569,17 @@
 		(lib_id "Device:C")
 		(at 177.546 121.412 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cedc363")
 		(property "Reference" "E791"
 			(at 180.467 120.2436 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,6 +3589,8 @@
 		)
 		(property "Value" "47p"
 			(at 180.467 122.555 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,24 +3600,30 @@
 		)
 		(property "Footprint" "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm"
 			(at 178.5112 125.222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 177.546 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 177.546 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,20 +3632,24 @@
 		)
 		(property "Section" "CLOCK"
 			(at 177.546 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "EMI_FILTER_TYPE" "C"
 			(at 177.546 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3505,13 +3659,9 @@
 			(uuid "16e2719d-22c2-4591-a5a0-832725193e2d")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "E791")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -3527,13 +3677,17 @@
 		(lib_id "Device:C")
 		(at 188.722 121.666 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cedc36a")
 		(property "Reference" "E109"
 			(at 191.643 120.4976 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,6 +3697,8 @@
 		)
 		(property "Value" "47p"
 			(at 191.643 122.809 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,24 +3708,30 @@
 		)
 		(property "Footprint" "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm"
 			(at 189.6872 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 188.722 121.666 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 188.722 121.666 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,20 +3740,24 @@
 		)
 		(property "Section" "CLOCK"
 			(at 188.722 121.666 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "EMI_FILTER_TYPE" "C"
 			(at 188.722 121.666 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3601,13 +3767,9 @@
 			(uuid "e0856a44-3ff4-4756-b9c6-4df00f4d5455")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "E109")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -3623,13 +3785,17 @@
 		(lib_id "Device:C")
 		(at 199.898 121.666 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cedc371")
 		(property "Reference" "E102"
 			(at 202.819 120.4976 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,6 +3805,8 @@
 		)
 		(property "Value" "47p"
 			(at 202.819 122.809 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,24 +3816,30 @@
 		)
 		(property "Footprint" "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm"
 			(at 200.8632 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 199.898 121.666 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 199.898 121.666 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,20 +3848,24 @@
 		)
 		(property "Section" "CLOCK"
 			(at 199.898 121.666 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "EMI_FILTER_TYPE" "C"
 			(at 199.898 121.666 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3697,13 +3875,9 @@
 			(uuid "23ffccef-8729-4052-bccf-aaefda6c9040")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "E102")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -3719,13 +3893,17 @@
 		(lib_id "Device:C")
 		(at 50.8 120.904 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ceeb0ac")
 		(property "Reference" "E106"
 			(at 53.721 119.7356 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,6 +3913,8 @@
 		)
 		(property "Value" "47p"
 			(at 53.721 122.047 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,24 +3924,30 @@
 		)
 		(property "Footprint" "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm"
 			(at 51.7652 124.714 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 50.8 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 50.8 120.904 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,20 +3956,24 @@
 		)
 		(property "Section" "CLOCK"
 			(at 50.8 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "EMI_FILTER_TYPE" "C"
 			(at 50.8 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3793,13 +3983,9 @@
 			(uuid "d9a04ecb-5a83-46d6-9721-8f9e0e4b3367")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "E106")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -3815,13 +4001,17 @@
 		(lib_id "Device:C")
 		(at 61.976 121.158 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ceeb0b2")
 		(property "Reference" "E107"
 			(at 64.897 119.9896 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,6 +4021,8 @@
 		)
 		(property "Value" "47p"
 			(at 64.897 122.301 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,24 +4032,30 @@
 		)
 		(property "Footprint" "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm"
 			(at 62.9412 124.968 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 61.976 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 61.976 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,20 +4064,24 @@
 		)
 		(property "Section" "CLOCK"
 			(at 61.976 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "EMI_FILTER_TYPE" "C"
 			(at 61.976 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3889,13 +4091,9 @@
 			(uuid "157e99c1-465f-4353-a7d3-5fcaf05e6b39")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "E107")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -3911,13 +4109,17 @@
 		(lib_id "Device:C")
 		(at 73.152 121.158 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ceeb0b8")
 		(property "Reference" "E108"
 			(at 76.073 119.9896 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,6 +4129,8 @@
 		)
 		(property "Value" "47p"
 			(at 76.073 122.301 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,24 +4140,30 @@
 		)
 		(property "Footprint" "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm"
 			(at 74.1172 124.968 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.152 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 73.152 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,20 +4172,24 @@
 		)
 		(property "Section" "CLOCK"
 			(at 73.152 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "EMI_FILTER_TYPE" "C"
 			(at 73.152 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3985,13 +4199,9 @@
 			(uuid "7659dfa4-e79f-46fa-be69-ef2a079f9ff4")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "E108")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -4007,22 +4217,28 @@
 		(lib_id "power:GND")
 		(at 61.976 129.54 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf1173c")
 		(property "Reference" "#PWR0238"
 			(at 61.976 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 62.103 133.9342 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,24 +4247,30 @@
 		)
 		(property "Footprint" ""
 			(at 61.976 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 61.976 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 61.976 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,7 +4281,7 @@
 			(uuid "420753fa-442e-4f10-8a4a-dca0a3853aa7")
 		)
 		(instances
-			(project "Raemixx500"
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "#PWR0238")
 					(unit 1)
@@ -4077,22 +4299,28 @@
 		(lib_id "power:GND")
 		(at 177.546 129.794 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf1188b")
 		(property "Reference" "#PWR0239"
 			(at 177.546 136.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 177.673 134.1882 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,24 +4329,30 @@
 		)
 		(property "Footprint" ""
 			(at 177.546 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 177.546 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 177.546 129.794 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +4363,7 @@
 			(uuid "ca3c606c-20d8-4936-a4eb-dc27b7e440d6")
 		)
 		(instances
-			(project "Raemixx500"
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "#PWR0239")
 					(unit 1)
@@ -4147,13 +4381,17 @@
 		(lib_id "Device:C")
 		(at 61.976 172.466 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf1a8d8")
 		(property "Reference" "E794"
 			(at 64.897 171.2976 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,6 +4401,8 @@
 		)
 		(property "Value" "47p"
 			(at 64.897 173.609 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4172,24 +4412,30 @@
 		)
 		(property "Footprint" "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm"
 			(at 62.9412 176.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 61.976 172.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 61.976 172.466 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,20 +4444,24 @@
 		)
 		(property "Section" "CLOCK"
 			(at 61.976 172.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "EMI_FILTER_TYPE" "C"
 			(at 61.976 172.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4221,13 +4471,9 @@
 			(uuid "4fa2e395-ce23-41b4-9403-06c0d5d523c0")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "E794")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -4243,13 +4489,17 @@
 		(lib_id "Device:C")
 		(at 73.152 172.72 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf1a8de")
 		(property "Reference" "E103"
 			(at 76.073 171.5516 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,6 +4509,8 @@
 		)
 		(property "Value" "47p"
 			(at 76.073 173.863 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,24 +4520,30 @@
 		)
 		(property "Footprint" "Raemixx500:C_Axial_L9.0mm_D3.2mm_P12.70mm"
 			(at 74.1172 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.152 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 73.152 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,20 +4552,24 @@
 		)
 		(property "Section" "CLOCK"
 			(at 73.152 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "EMI_FILTER_TYPE" "C"
 			(at 73.152 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4317,13 +4579,9 @@
 			(uuid "ed850b31-18b8-446f-99aa-07de337a3051")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "E103")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -4339,22 +4597,28 @@
 		(lib_id "power:GND")
 		(at 73.152 181.102 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf1a8ec")
 		(property "Reference" "#PWR0240"
 			(at 73.152 187.452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 73.279 185.4962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,24 +4627,30 @@
 		)
 		(property "Footprint" ""
 			(at 73.152 181.102 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 73.152 181.102 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 73.152 181.102 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,7 +4661,7 @@
 			(uuid "66af5700-4510-4f6a-89c9-fdfde5ee5fbc")
 		)
 		(instances
-			(project "Raemixx500"
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "#PWR0240")
 					(unit 1)
@@ -4409,13 +4679,17 @@
 		(lib_id "emi_filter_lcl_small:EMI_Filter_LCL")
 		(at 136.906 102.87 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d5d787f")
 		(property "Reference" "E105"
 			(at 134.493 97.663 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,6 +4699,8 @@
 		)
 		(property "Value" "68"
 			(at 139.573 103.632 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,24 +4710,30 @@
 		)
 		(property "Footprint" "Raemixx500:EMI_Filter_Long"
 			(at 136.906 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb"
 			(at 136.906 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 136.906 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,29 +4742,35 @@
 		)
 		(property "Section" "CLOCK"
 			(at 136.906 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "EMI_FILTER_TYPE" "R"
 			(at 136.906 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Required" "Y"
 			(at 136.906 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4495,13 +4783,9 @@
 			(uuid "27361f22-071c-464f-8e7c-b5d272ae495c")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "E105")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -4517,13 +4801,17 @@
 		(lib_id "emi_filter_lcl_small:EMI_Filter_LCL")
 		(at 136.906 113.03 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d5eac36")
 		(property "Reference" "E104"
 			(at 134.493 107.823 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,6 +4821,8 @@
 		)
 		(property "Value" "68"
 			(at 139.573 113.792 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,24 +4832,30 @@
 		)
 		(property "Footprint" "Raemixx500:EMI_Filter_Long"
 			(at 136.906 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb"
 			(at 136.906 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 136.906 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,29 +4864,35 @@
 		)
 		(property "Section" "CLOCK"
 			(at 136.906 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "EMI_FILTER_TYPE" "R"
 			(at 136.906 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Required" "Y"
 			(at 136.906 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -4603,13 +4905,9 @@
 			(uuid "c64d338d-c45e-4483-917a-2b7eaf0e7fe2")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "E104")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -4625,13 +4923,17 @@
 		(lib_id "74ls258:74LS258")
 		(at 92.456 64.77 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d89015c")
 		(property "Reference" "U33A1"
 			(at 93.726 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,6 +4942,8 @@
 		)
 		(property "Value" "74LS258"
 			(at 84.836 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,24 +4952,30 @@
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 92.456 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS258"
 			(at 92.456 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 92.456 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,29 +4984,35 @@
 		)
 		(property "Section" "CLOCK"
 			(at 92.456 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG Name" "N/A"
 			(at 92.456 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Required" "Y"
 			(at 92.456 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -4766,7 +5082,7 @@
 			(uuid "0cb668cc-7305-46ff-819b-cdf5319226d3")
 		)
 		(instances
-			(project "Raemixx500"
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "U33A1")
 					(unit 1)
@@ -4784,13 +5100,17 @@
 		(lib_id "74ls258:74LS258")
 		(at 92.456 100.33 0)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d895568")
 		(property "Reference" "U33B1"
 			(at 93.726 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,6 +5119,8 @@
 		)
 		(property "Value" "74LS258"
 			(at 84.836 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,24 +5129,30 @@
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 171.196 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS258"
 			(at 171.196 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 92.456 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,29 +5161,35 @@
 		)
 		(property "Section" "CLOCK"
 			(at 92.456 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG Name" "N/A"
 			(at 92.456 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Required" "Y"
 			(at 92.456 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "13"
@@ -4925,7 +5259,7 @@
 			(uuid "d89056fc-8b30-4432-a479-f41e0a96adf6")
 		)
 		(instances
-			(project "Raemixx500"
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "U33B1")
 					(unit 2)
@@ -4943,13 +5277,17 @@
 		(lib_id "74ls258:74LS258")
 		(at 92.456 82.55 0)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d8955fe")
 		(property "Reference" "U33C1"
 			(at 93.726 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,6 +5296,8 @@
 		)
 		(property "Value" "74LS258"
 			(at 84.836 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,24 +5306,30 @@
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 171.196 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS258"
 			(at 171.196 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 92.456 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,29 +5338,35 @@
 		)
 		(property "Section" "CLOCK"
 			(at 92.456 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG Name" "N/A"
 			(at 92.456 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Required" "Y"
 			(at 92.456 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -5084,7 +5436,7 @@
 			(uuid "ce004d40-090f-49e0-b3f2-08979907fb31")
 		)
 		(instances
-			(project "Raemixx500"
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "U33C1")
 					(unit 3)
@@ -5102,13 +5454,17 @@
 		(lib_id "r_pack05:R_Pack05")
 		(at 133.096 82.55 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d89736c")
 		(property "Reference" "RP103"
 			(at 133.096 71.9582 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,6 +5473,8 @@
 		)
 		(property "Value" "39"
 			(at 133.096 74.2696 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,24 +5483,30 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP10"
 			(at 133.096 92.075 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 133.096 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 133.096 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,20 +5515,24 @@
 		)
 		(property "Section" "CLOCK"
 			(at 133.096 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Required" "Y"
 			(at 133.096 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "8"
@@ -5198,7 +5566,7 @@
 			(uuid "99e8d48d-f887-49cd-aa08-de87f4bbe87f")
 		)
 		(instances
-			(project "Raemixx500"
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "RP103")
 					(unit 1)
@@ -5216,13 +5584,17 @@
 		(lib_id "74ls258:74LS258")
 		(at 248.666 95.758 0)
 		(unit 5)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d8a9e7d")
 		(property "Reference" "U33E1"
 			(at 250.698 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,6 +5604,8 @@
 		)
 		(property "Value" "74LS258"
 			(at 249.682 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,24 +5615,30 @@
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 327.406 154.178 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS258"
 			(at 327.406 154.178 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 248.666 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,29 +5647,35 @@
 		)
 		(property "Section" "CLOCK"
 			(at 248.666 95.758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG Name" "N/A"
 			(at 248.666 95.758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Required" "Y"
 			(at 248.666 95.758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "12"
@@ -5359,7 +5745,7 @@
 			(uuid "d142d2b3-0969-4d1b-af71-5c2672bc11a2")
 		)
 		(instances
-			(project "Raemixx500"
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "U33E1")
 					(unit 5)
@@ -5377,22 +5763,28 @@
 		(lib_id "power:GND")
 		(at 248.666 116.078 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d8a9f76")
 		(property "Reference" "#PWR0202"
 			(at 248.666 122.428 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 248.793 120.4722 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,24 +5793,30 @@
 		)
 		(property "Footprint" ""
 			(at 248.666 116.078 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 248.666 116.078 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 248.666 116.078 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +5827,7 @@
 			(uuid "6e306967-1f37-4ec8-aeb3-9a71a827729a")
 		)
 		(instances
-			(project "Raemixx500"
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "#PWR0202")
 					(unit 1)
@@ -5447,22 +5845,28 @@
 		(lib_id "power:VCC")
 		(at 248.666 61.468 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d8aa81c")
 		(property "Reference" "#PWR0203"
 			(at 248.666 65.278 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 249.0978 57.0738 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,24 +5875,30 @@
 		)
 		(property "Footprint" ""
 			(at 248.666 61.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 248.666 61.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 248.666 61.468 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5909,7 @@
 			(uuid "3bf374f0-0ac5-4cb1-b081-ecdebfff545f")
 		)
 		(instances
-			(project "Raemixx500"
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "#PWR0203")
 					(unit 1)
@@ -5517,22 +5927,28 @@
 		(lib_id "power:GND")
 		(at 108.966 116.84 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d8abb37")
 		(property "Reference" "#PWR0204"
 			(at 108.966 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 109.093 121.2342 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,24 +5957,30 @@
 		)
 		(property "Footprint" ""
 			(at 108.966 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 108.966 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 108.966 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +5991,7 @@
 			(uuid "a6b6b567-2424-4711-9823-347bf1a83da2")
 		)
 		(instances
-			(project "Raemixx500"
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "#PWR0204")
 					(unit 1)
@@ -5587,13 +6009,17 @@
 		(lib_id "emi_filter_lcl_small:EMI_Filter_LCL")
 		(at 246.126 72.898 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005efd7951")
 		(property "Reference" "E407"
 			(at 250.6726 71.7296 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,6 +6029,8 @@
 		)
 		(property "Value" "10n"
 			(at 250.6726 74.041 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,24 +6040,30 @@
 		)
 		(property "Footprint" "Raemixx500:EMI_Filter_Short"
 			(at 246.126 72.898 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb"
 			(at 246.126 72.898 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 246.126 72.898 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,56 +6072,68 @@
 		)
 		(property "Section" "CLOCK"
 			(at 246.126 72.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "EMI_FILTER_TYPE" "W/FERRITE"
 			(at 246.126 72.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Cost" "0.234"
 			(at 246.126 72.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG Name" "MURATA"
 			(at 246.126 72.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG Part Num" "DSS1NB32A103Q91A"
 			(at 246.126 72.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Required" "Y"
 			(at 246.126 72.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5700,13 +6146,9 @@
 			(uuid "39c0d398-43ea-48e2-8882-e75f1e9fffdb")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "E407")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "E?")
 					(unit 1)
 				)
 			)
@@ -5722,13 +6164,17 @@
 		(lib_id "Device:C")
 		(at 258.826 98.298 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005efd7963")
 		(property "Reference" "C33"
 			(at 261.747 97.1296 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,6 +6184,8 @@
 		)
 		(property "Value" "10n"
 			(at 261.747 99.441 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,24 +6195,30 @@
 		)
 		(property "Footprint" "Raemixx500:C_Axial_L6.3mm_D2.5mm_P10.16mm"
 			(at 259.7912 102.108 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 258.826 98.298 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 258.826 98.298 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5773,47 +6227,57 @@
 		)
 		(property "MFG Name" "KEMET"
 			(at 258.826 98.298 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG Part Num" "C410C103K1H5TAAUTO"
 			(at 258.826 98.298 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Cost" "0.071"
 			(at 258.826 98.298 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Section" "CLOCK"
 			(at 258.826 98.298 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Required" "R"
 			(at 258.826 98.298 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5823,13 +6287,9 @@
 			(uuid "979f8386-361f-4b91-8bcc-dfcfecedde0c")
 		)
 		(instances
-			(project ""
+			(project "Amiga500"
 				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005d88ec26"
 					(reference "C33")
-					(unit 1)
-				)
-				(path "/3fbeb09d-d0f9-4f56-b343-194274c97843/00000000-0000-0000-0000-00005e9e4c57"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5846,5 +6306,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
